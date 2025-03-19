@@ -1,0 +1,15 @@
+[package]
+name = "bcbda"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0xc13ed43b9990ca1e571397f81f09ee0214ca1991e7efa1bb9bdafb209a2a9b8e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
